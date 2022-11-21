@@ -23,7 +23,7 @@ class ProductItem extends StatelessWidget {
                 height: 115,
                 fit: BoxFit.cover,
                 progressIndicatorBuilder: (context, url, progress) => CircularProgressIndicator(
-                  value: progress.progress,
+                  value: progress.progress, // 로딩시간
                 ),
               ),
             ),
