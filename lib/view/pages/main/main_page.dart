@@ -26,12 +26,12 @@ class _MainPageState extends State<MainPage> {
 
   IndexedStack _buildIndexedStack() {
     return IndexedStack(
-      index: _selectedIndex,
+      index: _selectedIndex, //아이콘클릭시 화면 이동
       children: [
         HomePage(),
+        NeigborhoodLifePage(),
         ChattingPage(),
         MyCarrotPage(),
-        NeigborhoodLifePage(),
         NearMePage(),
       ],
     );
